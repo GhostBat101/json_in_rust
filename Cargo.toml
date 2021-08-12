@@ -7,3 +7,6 @@ edition = "2018"
 
 [dependencies]
 rustc-serialize = "*"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+serde_derive = "*"
